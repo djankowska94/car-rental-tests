@@ -1,0 +1,29 @@
+Requirements:
+1. a user should be able to search for a car in a specific country/city,
+2. to rent a car, the user needs to provide dates,
+3. the user should be able to see car details after clicking "Rent” button,
+4. the user should be able to provide personal data in the rent form
+
+
+Test case 1: SUCCESSFUL RENTAL (covers requirements: 1,3,4 and 2 in case when dates are provided):
+1. Fill in the country and a corresponding city.
+2. Choose a pickup date and a drop off day, which is after a pickup date.
+3. Search for results.
+4. Choose one of the rental options and proceed with rent.
+5. Verify that the data of the rental is correct and proceed with rent.
+6. Fill in the name, last name, card number and an email and proceed with rent.
+7. Check the success confirmation.
+
+
+Test case 2: NO PICK UP DATE PROVIDED (covers requirement 2 in case when the first date is empty):
+1. Fill in the country and a corresponding city.
+2. Choose a drop off day and leave the pickup date blank.
+3. Search for results.
+4. Check that there is an indication to fill in the dates.
+
+
+Test case 3: NO DROPOFF DATE PROVIDED (covers requirement 2 in case when the second date is empty):
+1. Fill in the country and a corresponding city.
+2. Choose a pickup day and leave the drop off date blank.
+3. Search for results.
+4. Check that there is an indication to fill in the dates.

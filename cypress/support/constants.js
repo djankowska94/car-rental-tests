@@ -1,0 +1,10 @@
+export const pickUpDate = '2024-07-10'
+export const dropOffDate = '2024-12-30'
+export const rentedCar = ['17', 'Parsons-Baker', 'Volkswagen Touran']
+export const rentalCountry = "Poland"
+export const rentalCity = "Cracow"
+export const firstName = "Jan"
+export const lastName = "Kowalski"
+export const cardNumber = "01234512345"
+export const email = "jkowalski@aaaaaaa.com"
+export const dateError = 'Please fill pickup and drop off dates'
